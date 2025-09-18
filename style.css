@@ -1,0 +1,226 @@
+nav{
+    background-color: #755431;   
+     color:white;
+    padding: 10px;
+    position: absolute;
+    margin-top: -630px;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    border-radius: 30px;
+    width: 80vw;
+    left: 5vw;
+    gap: 10px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.contact{
+    background-color:#b17c4b;
+    padding: 10px 15px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+        width:140px;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* overflow: hidden; */
+}
+.zebra{
+    width: 100vw;
+    object-fit: contain;
+    height:100vh;
+    position: relative;
+}
+.two{
+    width:120px;
+    gap: 5px;
+}
+.imageWrapper{
+    position: relative;
+    width:100vw;
+    object-fit: contain;
+    height:100%;
+    top: 0;
+    padding: 0;
+    margin:0; 
+}
+.arrow{
+    width:16px;
+}
+.right-nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.hero{
+    z-index:5;
+    position: absolute;
+    color: white;
+    margin-top: -480px;
+    padding: 25px;
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+.use{
+    background-color: #e4d1c0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* margin-top: 30px; */
+}
+.use-left{
+    margin-left: 150px;
+    padding: 0 20px;
+    width:70ch;
+}
+.afr{
+    background-color: transparent;
+    margin-bottom: -5px;
+}
+.us{
+    color:#ba8d62;
+}
+.heart{
+    color:#ba8d62;
+}
+.corridorWrapper{
+    width:100%;
+    /* height:60%;
+    height:100%; */
+    top: 0;
+    padding-bottom: 30px;
+    margin:0; 
+    object-fit: contain;
+    position: relative;
+}
+.scene{
+    height:100%;
+}
+.tour{
+    margin-top: -800px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.corridor-items{
+    color: white;
+    display: flex;
+    gap:10px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.wildlife{
+    background-color: #362512;
+    width:300px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 5px 10px;
+}
+.wildlife h3{
+    font-weight: 500;
+}
+.circle{
+    background-color: #a76c34;
+    width:25px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0 3px;
+}
+.circle img{
+    margin-left: 5px;
+}
+.fourth-hero{
+    background-color: #e4d1c0;
+    width:100%;
+    height: 100vh;
+    position: relative;
+    margin-top: 350px;
+}
+.options{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    color: #905d2d;
+}
+.fourth-hero h2{
+    text-align: center;
+     color: #905d2d;
+     bottom:130px;
+     padding-top: 60px;
+
+     /* position: absolute; */
+     margin-top: 150px !important;
+}
+.wonders{
+    background-color: #905d2d;
+    color: white;
+}
+.options div{
+    width: 140px;
+    padding: 10px 15px;
+    /* position: absolute; */
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 1px solid #905d2d;
+}
+.destinations-text{
+    /* margin-bottom: -100px; */
+    /* padding-top: 50px; */
+}
+.cards div{
+    width:250px;
+    object-fit: contain;
+    height:300px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+}
+.cards{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.cards img{
+    height:60%;
+    width: 100%;
+}
+.below-text{
+    max-height: 40%;
+}
+@media (max-width:980px){
+    .nav{
+        margin-top: -450px;
+    }
+    body{
+        font-size: 20px;
+    }
+}
